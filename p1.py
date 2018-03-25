@@ -1,12 +1,28 @@
+#using python 3.6
+#p17095-applied algebra program no.1
+
+
+
 s = raw_input("dwse meta8esh\n")
-meta8esh = map(int, s.split())
+given=[]
+given.append(map(int, s.split()))
+print(given)
+length=len(given[0])
+print("to mhkos ths meta8eshs einai:"+str(length))
+
+
+meta8esh=[]
+for i in range(length):
+    meta8esh.append([i+1,0])
 print(meta8esh)
-length=len(meta8esh)
-print("to mhkos ths meta8eshs einai:"+str(len(meta8esh)))
-antistrofh=[]
+for j in range(length):
+    help1=given[0][j]
+    meta8esh[j][1].append(help1)
+print (meta8esh)
+#def BresAntistrofh(met8esh):
+'''antistrofh=[]
 for i in range(length):
-    antistrofh.append(i+1)
-print(antistrofh)
-for i in range(length):
-    antistrofh[i][1]=meta8esh[i]
+
 print (antistrofh)
+#print ("h antistrofh einai:"+BresAntistrofh(meta8esh))
+'''
