@@ -22,7 +22,8 @@ print (meta8esh)
 #def BresAntistrofh(met8esh):
 '''antistrofh=[]
 for i in range(length):
-
-print (antistrofh)
+    help2=meta8esh[i][1]
+    antistrofh[help2].append(i)
+print (str(antistrofh.join(" ")))
 #print ("h antistrofh einai:"+BresAntistrofh(meta8esh))
 '''
